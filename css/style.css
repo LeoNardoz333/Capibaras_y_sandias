@@ -12,3 +12,36 @@
 .navbar{
     height: 40px;
 }
+.carousel-inner{
+    max-height: 30rem;
+}
+.carousel-img-size{
+    width: 300px;
+    height: 300px;
+}
+.iconos{
+    width: 170px;
+    height: 170px;
+}
+.ancho-caracteristicas{
+    width: 85%;
+}
+.parrafo-caracteristicas{
+    font-size:smaller;
+}
+@media (max-width:768px){
+    #intro, #equipo{
+        width: 90% !important;
+    }
+    .fila{
+        width: 100% !important;
+        text-align: center;
+    }
+}
+@media (max-width:576px){
+    .wrap{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+}
