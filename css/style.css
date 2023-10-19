@@ -6,6 +6,14 @@
     color: #D26500;
     font-size: 30px;
 }
+.Titulo-pagina-sandias{
+    color: #FF6161;
+    font-size: 15px;
+}
+.Titulo-sandias{
+    color: #FF6161;
+    font-size: 30px;
+}
 .parrafo{
     text-align: center;
 }
@@ -44,4 +52,71 @@
         justify-content: center;
         text-align: center;
     }
+}
+.botonuwu{
+    background-color: #FFC692;
+    font-size: 20px;
+    width:200px;
+    bottom: 10px;
+    left: 10px;
+    border: none;
+    color: azure;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 8px;
+}
+.botonuwu:hover{
+        background-color: rgb(255, 223, 177);
+}
+.botonuwu-sandias{
+    background-color: #FFB0B0;
+    font-size: 20px;
+    width:200px;
+    bottom: 10px;
+    left: 10px;
+    border: none;
+    color: azure;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 8px;
+}
+.botonuwu-sandias:hover{
+        background-color: rgb(255, 204, 204);
+}
+.botonuwu-opinion{
+    background-color: #FFB0B0;
+    font-size: 13px;
+    width:100px;
+    bottom: 10px;
+    left: 10px;
+    border: none;
+    color: azure;
+    padding: 5px 5px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 8px;
+}
+.botonuwu-opinion:hover{
+        background-color: rgb(255, 204, 204);
+}
+.margen-boton{
+    margin-top: 100px;
+}
+.footer-cap{
+    background: #ffaf2b;
+    min-height: 80px;
+}
+.footer-cap p{
+    color: #f3f3f3;
+    text-align: center;
+}
+.footer-san{
+    background: #FE8D8D;
+    min-height: 80px;
+}
+.footer-san p{
+    color: #f3f3f3;
+    text-align: center;
 }
