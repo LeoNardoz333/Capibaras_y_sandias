@@ -14,6 +14,10 @@
     color: #FF6161;
     font-size: 30px;
 }
+.text-sandias{
+    color: #FF6161;
+    margin-right: 10px;
+}
 .parrafo{
     text-align: center;
 }
@@ -119,4 +123,45 @@
 .footer-san p{
     color: #f3f3f3;
     text-align: center;
+}
+.borde-comentario{
+    border: 2px solid #FFB0B0;
+    border-radius: 8px;
+}
+.botonuwu-publicar{
+    background-color: #FFB0B0;
+    font-size: 20px;
+    width:75%;
+    bottom: 10px;
+    left: 10px;
+    border: none;
+    color: azure;
+    padding: 5px 5px;
+    border: 2px solid #FFB0B0;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 8px;
+}
+.botonuwu-publicar:hover{
+        background-color: rgb(255, 204, 204);
+}
+.botonuwu-cancelar{
+    background-color: #fdfdfd;
+    font-size: 20px;
+    width:75%;
+    bottom: 10px;
+    left: 10px;
+    border: 2px solid #FFB0B0;
+    color: black;
+    padding: 5px 5px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 8px;
+}
+.botonuwu-cancelar:hover{
+        background-color: rgb(255, 204, 204);
+}
+section, footer {
+    margin: 0;
+    padding: 0;
 }
