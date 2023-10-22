@@ -41,22 +41,6 @@
 .parrafo-caracteristicas{
     font-size:smaller;
 }
-@media (max-width:768px){
-    #intro, #equipo{
-        width: 90% !important;
-    }
-    .fila{
-        width: 100% !important;
-        text-align: center;
-    }
-}
-@media (max-width:576px){
-    .wrap{
-        flex-wrap: wrap;
-        justify-content: center;
-        text-align: center;
-    }
-}
 .botonuwu{
     background-color: #FFC692;
     font-size: 20px;
@@ -128,40 +112,203 @@
     border: 2px solid #FFB0B0;
     border-radius: 8px;
 }
-.botonuwu-publicar{
-    background-color: #FFB0B0;
-    font-size: 20px;
-    width:75%;
-    bottom: 10px;
-    left: 10px;
-    border: none;
-    color: azure;
-    padding: 5px 5px;
-    border: 2px solid #FFB0B0;
-    cursor: pointer;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border-radius: 8px;
-}
-.botonuwu-publicar:hover{
-        background-color: rgb(255, 204, 204);
-}
-.botonuwu-cancelar{
-    background-color: #fdfdfd;
-    font-size: 20px;
-    width:75%;
-    bottom: 10px;
-    left: 10px;
-    border: 2px solid #FFB0B0;
-    color: black;
-    padding: 5px 5px;
-    cursor: pointer;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border-radius: 8px;
-}
-.botonuwu-cancelar:hover{
-        background-color: rgb(255, 204, 204);
-}
 section, footer {
     margin: 0;
     padding: 0;
+}
+/*Resoluciones
+d-flex flex-column mt-5 mx-auto w-50*/
+@media (max-width:390px){
+    #navbarMovil{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        height: 60px;
+    }
+
+    .botonuwu-publicar{
+        background-color: #FFB0B0;
+        font-size: 15px;
+        width:90%;
+        bottom: 10px;
+        left: 10px;
+        border: none;
+        color: azure;
+        padding: 5px 5px;
+        border: 2px solid #FFB0B0;
+        cursor: pointer;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 8px;
+    }
+    .botonuwu-publicar:hover{
+            background-color: rgb(255, 204, 204);
+    }
+    .botonuwu-cancelar{
+        background-color: #fdfdfd;
+        font-size: 15px;
+        width:90%;
+        bottom: 10px;
+        left: 10px;
+        border: 2px solid #FFB0B0;
+        color: black;
+        padding: 5px 5px;
+        cursor: pointer;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 8px;
+    }
+    .botonuwu-cancelar:hover{
+            background-color: rgb(255, 204, 204);
+    }
+    .formulario {
+        display: block;
+        margin-top: 5px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 75%;
+    }
+    .entrada {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .entrada > span{
+        display: block;
+        text-align: center;
+    }
+    .entrada > input, .entrada > textarea {
+        width: 100%;
+    }
+    .margen-left{
+        margin-left: 0px;
+    }
+    footer{
+        font-size: 15px;
+    }
+}
+@media (min-width:701px) and (max-width:1920px){
+    #navbarMovil{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        height: 60px;
+    }
+    .botonuwu-publicar{
+        background-color: #FFB0B0;
+        font-size: 20px;
+        width:75%;
+        bottom: 10px;
+        left: 10px;
+        border: none;
+        color: azure;
+        padding: 5px 5px;
+        border: 2px solid #FFB0B0;
+        cursor: pointer;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 8px;
+    }
+    .botonuwu-publicar:hover{
+            background-color: rgb(255, 204, 204);
+    }
+    .botonuwu-cancelar{
+        background-color: #fdfdfd;
+        font-size: 20px;
+        width:75%;
+        bottom: 10px;
+        left: 10px;
+        border: 2px solid #FFB0B0;
+        color: black;
+        padding: 5px 5px;
+        cursor: pointer;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 8px;
+    }
+    .botonuwu-cancelar:hover{
+            background-color: rgb(255, 204, 204);
+    }
+    .fila{
+        width: 100% !important;
+        text-align: center;
+    }
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 50%;
+    }
+    .entrada{
+        /*mb-3 d-flex flex-grow-1*/
+        display: flex;
+        flex-grow: 1;
+    }
+    .margen-left{
+        margin-left: 3px;
+    }
+    footer{
+        font-size: 23px;
+    }
+}
+@media (min-width:391px) and (max-width:700px){
+
+    #navbarMovil{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        height: 60px;
+    }
+    .botonuwu-publicar{
+        background-color: #FFB0B0;
+        font-size: 17px;
+        width:75%;
+        bottom: 10px;
+        left: 10px;
+        border: none;
+        color: azure;
+        padding: 5px 5px;
+        border: 2px solid #FFB0B0;
+        cursor: pointer;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 8px;
+    }
+    .botonuwu-publicar:hover{
+            background-color: rgb(255, 204, 204);
+    }
+    .botonuwu-cancelar{
+        background-color: #fdfdfd;
+        font-size: 17px;
+        width:75%;
+        bottom: 10px;
+        left: 10px;
+        border: 2px solid #FFB0B0;
+        color: black;
+        padding: 5px 5px;
+        cursor: pointer;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 8px;
+    }
+    .botonuwu-cancelar:hover{
+            background-color: rgb(255, 204, 204);
+    }
+    .wrap{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 65%;
+    }
+    .entrada{
+        /*mb-3 d-flex flex-grow-1*/
+        display: flex;
+        flex-grow: 1;
+    }
+    .margen-left{
+        margin-left: 3px;
+    }
 }
