@@ -119,13 +119,6 @@ section, footer {
 /*Resoluciones
 d-flex flex-column mt-5 mx-auto w-50*/
 @media (max-width:390px){
-    #navbarMovil{
-        flex-wrap: wrap;
-        justify-content: center;
-        text-align: center;
-        height: 60px;
-    }
-
     .botonuwu-publicar{
         background-color: #FFB0B0;
         font-size: 15px;
@@ -186,12 +179,6 @@ d-flex flex-column mt-5 mx-auto w-50*/
     }
 }
 @media (min-width:701px) and (max-width:1920px){
-    #navbarMovil{
-        flex-wrap: wrap;
-        justify-content: center;
-        text-align: center;
-        height: 60px;
-    }
     .botonuwu-publicar{
         background-color: #FFB0B0;
         font-size: 20px;
@@ -250,13 +237,6 @@ d-flex flex-column mt-5 mx-auto w-50*/
     }
 }
 @media (min-width:391px) and (max-width:700px){
-
-    #navbarMovil{
-        flex-wrap: wrap;
-        justify-content: center;
-        text-align: center;
-        height: 60px;
-    }
     .botonuwu-publicar{
         background-color: #FFB0B0;
         font-size: 17px;
