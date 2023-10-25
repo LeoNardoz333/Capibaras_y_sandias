@@ -24,23 +24,6 @@
 .navbar{
     height: 40px;
 }
-.carousel-inner{
-    max-height: 30rem;
-}
-.carousel-img-size{
-    width: 300px;
-    height: 300px;
-}
-.iconos{
-    width: 170px;
-    height: 170px;
-}
-.ancho-caracteristicas{
-    width: 85%;
-}
-.parrafo-caracteristicas{
-    font-size:smaller;
-}
 .botonuwu{
     background-color: #FFC692;
     font-size: 20px;
@@ -119,6 +102,33 @@ section, footer {
 /*Resoluciones
 d-flex flex-column mt-5 mx-auto w-50*/
 @media (max-width:390px){
+    .iconos{
+        width: 120px;
+        height: 120px;
+    }
+    .parrafo-caracteristicas{
+        font-size:11px;
+    }
+    .titulo-caracteristicas{
+        font-size: 15px;
+    }
+    .ancho-caracteristicas{
+        width: 100%;
+    }
+    .carousel-inner{
+        max-height: 30rem;
+    }
+    .carousel-img-size{
+        width: 75px;
+        height: 60px;
+    }
+    .espacio{
+        height: 200px;
+    }
+    .video{
+        width: 80%;
+        height: 170px;
+    }
     .botonuwu-publicar{
         background-color: #FFB0B0;
         font-size: 15px;
@@ -179,6 +189,30 @@ d-flex flex-column mt-5 mx-auto w-50*/
     }
 }
 @media (min-width:701px) and (max-width:1920px){
+    .carousel-inner{
+        max-height: 30rem;
+    }
+    .carousel-img-size{
+        width: 100%;
+        height: 280px;
+    }
+    .iconos{
+        width: 100px;
+        height: 100px;
+    }
+    .parrafo-caracteristicas{
+        font-size:smaller;
+    }
+    .titulo-caracteristicas{
+        font-size: 20px;
+    }
+    .ancho-caracteristicas{
+        width: 80%;
+    }
+    .video{
+        width: 60%;
+        height: 450px;
+    }
     .botonuwu-publicar{
         background-color: #FFB0B0;
         font-size: 20px;
@@ -237,6 +271,33 @@ d-flex flex-column mt-5 mx-auto w-50*/
     }
 }
 @media (min-width:391px) and (max-width:700px){
+    .iconos{
+        width: 150px;
+        height: 150px;
+    }
+    .parrafo-caracteristicas{
+        font-size:smaller;
+    }
+    .titulo-caracteristicas{
+        font-size: 18px;
+    }
+    .ancho-caracteristicas{
+        width: 100%;
+    }
+    .carousel-inner{
+        max-height: 30rem;
+    }
+    .carousel-img-size{
+        width: 100%;
+        height: 110px;
+    }
+    .espacio{
+        height: 150px;
+    }
+    .video{
+        width: 70%;
+        height: 260px;
+    }
     .botonuwu-publicar{
         background-color: #FFB0B0;
         font-size: 17px;
@@ -269,11 +330,6 @@ d-flex flex-column mt-5 mx-auto w-50*/
     }
     .botonuwu-cancelar:hover{
             background-color: rgb(255, 204, 204);
-    }
-    .wrap{
-        flex-wrap: wrap;
-        justify-content: center;
-        text-align: center;
     }
     .formulario{
         display: flex;
