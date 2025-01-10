@@ -1,5 +1,6 @@
 # Capibaras_y_sandias
-Página para blogs de capibaras y sandías owo
+Página para blogs de capibaras y sandías
+
 Fuentes:
 https://www.ecologiaverde.com/capibara-caracteristicas-habitat-y-alimentacion-4037.html
 https://es.wikipedia.org/wiki/Citrullus_lanatus
