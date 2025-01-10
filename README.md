@@ -1,5 +1,12 @@
-# Capibaras_y_sandias
-Página para blogs de capibaras y sandías
+# Capibaras y sandias
+Sitio web para blogs de capibaras y sandías.
+
+Tecnologías de desarrollo:
+- HTML
+- CSS (Bootstrap)
+
+Entorno de desarrollo
+- Visual Studio Code
 
 Fuentes:
 https://www.ecologiaverde.com/capibara-caracteristicas-habitat-y-alimentacion-4037.html
